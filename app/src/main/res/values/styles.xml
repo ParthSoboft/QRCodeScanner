@@ -19,5 +19,9 @@
         <item name="cornerFamily">cut</item>
         <item name="cornerSize">25dp</item>
     </style>
+    <style name="DialogTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="android:buttonTint">@color/purple_700</item>
+    </style>
 
 </resources>

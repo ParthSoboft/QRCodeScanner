@@ -1,4 +1,4 @@
-package com.qrscanner.dlapp
+package com.daylewis.dlwarehouseapp.dlapp.others
 
 import android.util.Log
 import androidx.camera.core.ExperimentalGetImage

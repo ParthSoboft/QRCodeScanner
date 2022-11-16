@@ -1,4 +1,4 @@
-package com.qrscanner.ui
+package com.daylewis.dlwarehouseapp.dlapp.ui
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -37,6 +37,7 @@ class ScannerResultDialog(private val listener: DialogDismissListener) : BottomS
             clipboard?.setPrimaryClip(clip)
             Toast.makeText(requireContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show()
             dismissAllowingStateLoss()
+            activity!!.finish()
         }
     }
 

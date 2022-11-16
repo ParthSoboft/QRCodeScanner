@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_centerVertical="true"
+        android:textAlignment="textStart"
+        android:layout_toLeftOf="@+id/img_right"
+       android:id="@+id/txt_location"
+        android:layout_width="match_parent"
+        android:text="1. Rajkot,Gujarat"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_right"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_true"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

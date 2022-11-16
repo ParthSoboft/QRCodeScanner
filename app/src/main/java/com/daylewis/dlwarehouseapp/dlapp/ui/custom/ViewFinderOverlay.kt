@@ -1,4 +1,4 @@
-package com.qrscanner.ui.custom
+package com.daylewis.dlwarehouseapp.dlapp.ui.custom
 
 import android.content.Context
 import android.graphics.*
@@ -11,7 +11,7 @@ import com.qrscanner.dlapp.R
 class ViewFinderOverlay(context: Context, attrs: AttributeSet) : View(context, attrs) {
 
     private val boxPaint: Paint = Paint().apply {
-        color = ContextCompat.getColor(context, R.color.barcode_reticle_stroke)
+        color = ContextCompat.getColor(context, R.color.white)
         style = Paint.Style.STROKE
         strokeWidth = context.resources.getDimensionPixelOffset(R.dimen.barcode_reticle_stroke_width).toFloat()
     }

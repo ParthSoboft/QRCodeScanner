@@ -10,6 +10,7 @@ import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.daylewis.dlwarehouseapp.dlapp.ui.BarcodeScanningActivity
 import com.qrscanner.dlapp.databinding.ActivityMainBinding
 
 

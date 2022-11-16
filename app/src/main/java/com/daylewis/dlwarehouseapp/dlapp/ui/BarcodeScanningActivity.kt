@@ -1,4 +1,4 @@
-package com.qrscanner.ui
+package com.daylewis.dlwarehouseapp.dlapp.ui
 
 import android.content.Context
 import android.content.Intent
@@ -15,10 +15,10 @@ import androidx.camera.core.TorchState
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import com.google.common.util.concurrent.ListenableFuture
-import com.qrscanner.dlapp.MLKitBarcodeAnalyzer
+import com.daylewis.dlwarehouseapp.dlapp.others.MLKitBarcodeAnalyzer
 import com.qrscanner.dlapp.R
-import com.qrscanner.dlapp.ScanningResultListener
-import com.qrscanner.dlapp.ZXingBarcodeAnalyzer
+import com.daylewis.dlwarehouseapp.dlapp.others.ScanningResultListener
+import com.daylewis.dlwarehouseapp.dlapp.others.ZXingBarcodeAnalyzer
 import com.qrscanner.dlapp.databinding.ActivityBarcodeScanningBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors

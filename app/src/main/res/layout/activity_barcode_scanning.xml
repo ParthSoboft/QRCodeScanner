@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.qrscanner.ui.custom.ViewFinderOverlay
+    <com.daylewis.dlwarehouseapp.dlapp.ui.custom.ViewFinderOverlay
         android:id="@+id/overlay"
         android:layerType="software"
         android:layout_width="match_parent"
@@ -27,15 +27,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvScanningWith"
             android:textStyle="bold"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:background="@drawable/scanner_logo_background"
             android:text="@string/scanning_with"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <ImageView
+            android:visibility="gone"
             android:id="@+id/ivScannerLogo"
             android:layout_marginTop="8dp"
             android:padding="8dp"

@@ -1,4 +1,4 @@
-package com.qrscanner.dlapp
+package com.daylewis.dlwarehouseapp.dlapp.others
 
 import android.graphics.ImageFormat
 import android.util.Log
